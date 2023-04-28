@@ -21,11 +21,8 @@ This extension for Visual Studio Code allows you to preview your HTML code in bo
 
 ## Known Issues
 
-Linked JS files may not display properly.  If linked style sheets have global body or html properties set, they are disabled.  
-
+Linked JS files may not display properly. If linked style sheets have global body or html properties set, they are disabled.
 
 ### 1.0.0
 
 Initial release of Live Preview Desktop and Mobile.
-
-
