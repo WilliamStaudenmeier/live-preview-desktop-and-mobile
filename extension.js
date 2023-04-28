@@ -38,22 +38,27 @@ function activate(context) {
 
       return `
       <div class="wrapper">
+      <h1>Desktop</h1>
         <div class="desktop">
-          <h1>Desktop</h1>
+        
           <div class="content">${replacedText}</div>
         </div>
+        <h1>Mobile</h1>
         <div class="portrait">
-          <h1>Portrait</h1>
+          
           <div class="content">${replacedText}</div>
         </div>
+      
         <div class="landscape">
-          <h1>Landscape</h1>
+         
           <div class="content">${replacedText}</div>
         </div>
       </div>
       <style>
         body,html{
           background:transparent;
+          background-image:linear-gradient(transparent,transparent);
+          background-color: transparent;
           display:flex;
           opacity:1;
           height:100%;
@@ -74,28 +79,40 @@ function activate(context) {
           margin-right: 20px;
           border: 1px solid gray;
         }
-    
+
+       
         .portrait {
           width: 250px;
           height: 350px;
-          top:640px;
+          top:650px;
           margin-right: 20px;
           border: 1px solid gray;
         }
-    
+      
         .landscape {
           width: 400px;
           height: 300px;
-          top:1100px;
+          top:1120px;
           border: 1px solid gray;
         }
-    
+        
         .content {
           height: 100%;
-          overflow: hidden;
+          width: 100%;
+          position: relative;
+        }
+  
+        .content > * {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
         }
     
       </style>
+      
+  
      
     `;
     }
