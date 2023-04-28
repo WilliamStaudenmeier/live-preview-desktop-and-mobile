@@ -3,7 +3,7 @@
   "displayName": "Live Preview",
   "description": "Preview HTML files in a separate panel with live updates.",
   "version": "1.0.0",
-  "publisher": "YourPublisherName",
+  "publisher": "William Staudenmeier",
   "engines": {
     "vscode": "^1.0.0"
   },
