@@ -1,9 +1,11 @@
 {
   "name": "live-preview-desktop-and-mobile",
-  "displayName": "Live Preview",
+  "displayName": "Live Preview Desktop and Mobile",
   "description": "Preview HTML files in a separate panel with live updates.",
-  "version": "1.0.0",
-  "publisher": "William Staudenmeier",
+  "version": "1.0.8",
+  "icon": "thumbnail4.png",
+  "publisher": "WilliamStaudenmeier",
+  "repository": "https://github.com/WilliamStaudenmeier/live-preview-desktop-and-mobile",
   "engines": {
     "vscode": "^1.0.0"
   },
