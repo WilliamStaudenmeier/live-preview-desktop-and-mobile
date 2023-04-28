@@ -1,4 +1,4 @@
-# Live Preview Desktop and Mobile
+[# Live Preview Desktop and Mobile
 
 This extension for Visual Studio Code allows you to preview your HTML code in both desktop and mobile views, all within the same preview window.
 
@@ -26,3 +26,4 @@ Linked JS files may not display properly. If linked style sheets have global bod
 ### 1.0.0
 
 Initial release of Live Preview Desktop and Mobile.
+](https://marketplace.visualstudio.com/items?itemName=WilliamStaudenmeier.live-preview-desktop-and-mobile)
